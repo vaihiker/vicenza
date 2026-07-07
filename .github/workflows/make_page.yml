@@ -1,0 +1,28 @@
+name: Make page
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: |
+          python3 - <<'PY'
+          p='index.'+'ht'+'ml'
+          txt='page ok'
+          open(p,'w').write(txt)
+          PY
+          git config user.name bot
+          git config user.email bot@example.com
+          git add -A
+          git commit -m page || true
+          git push || true
