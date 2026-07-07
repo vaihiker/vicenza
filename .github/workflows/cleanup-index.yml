@@ -1,0 +1,32 @@
+name: Cleanup old index
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Remove old generated files
+        run: |
+          rm -f index.html
+          rm -f write-test.txt
+          rm -f write-test-html-as-text.txt
+      - name: Commit cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git add -A
+            git commit -m "Use markdown guide for Pages"
+            git push
+          fi
