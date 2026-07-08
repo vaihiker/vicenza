@@ -1,15 +1,247 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vicenza guide</title><style>body{margin:0;background:#f3eadf;color:#16221e;font:17px/1.55 system-ui}.wrap{max-width:1120px;margin:auto;padding:18px}header{background:linear-gradient(135deg,#211814,#7b3b2b);color:white;padding:38px 18px}h1{font-size:clamp(34px,6vw,62px);margin:0 0 10px}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip,.card,.route{border:1px solid #ddcab5;border-radius:20px;background:#fffaf2}.chip{padding:7px 10px;background:#ffffff22}.grid,.routes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{padding:18px;margin:16px 0;box-shadow:0 12px 28px #0002}.hero{min-height:210px;display:flex;align-items:end;color:white;font-size:30px;font-weight:900;padding:18px;background:linear-gradient(135deg,#2e6f5d,#b77516);border-radius:18px}.route{overflow:hidden}.route iframe{width:100%;height:230px;border:0}.rb{padding:14px}.btn{display:inline-block;background:#2e6f5d;color:white;text-decoration:none;font-weight:900;border-radius:12px;padding:11px 13px}.time{font-weight:900}.copy{white-space:pre-wrap;background:#241f1b;color:white;border-radius:14px;padding:12px}@media(max-width:760px){.grid,.routes{grid-template-columns:1fr}.wrap{padding:12px}.route iframe{height:220px}}</style></head><body><header><div class="wrap"><h1>Vicenza / Ferrock / Venezia</h1><p>Практический гид 11–12 июля 2026: Kraków → Treviso → Vicenza → Ferrock → Venezia → Treviso Airport.</p><div class="chips"><span class="chip">KRK 10:20 → TSF 12:00</span><span class="chip">TSF 16:00 → KRK 17:40</span><span class="chip">CityHotel Cristina</span><span class="chip">Ferrock / Parco Retrone</span></div></div></header><main class="wrap"><section class="grid"><div class="card"><h2>Перед выездом</h2><ul><li>50 € мелкими купюрами и монетами.</li><li>Быть в Kraków Airport около 08:20.</li><li>Сохранить Ryanair, Trenitalia и ATVO офлайн.</li><li>Сделать скрины отеля, Ferrock, Cantina Do Spade и такси.</li></ul></div><div class="card"><h2>Адреса</h2><div class="copy">CityHotel Cristina Vicenza
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Vicenza / Ferrock / Venezia — практический гид</title>
+<style>
+:root{
+  --bg:#f3eadf;--paper:#fffaf2;--paper2:#fff4e6;--ink:#16221e;--muted:#667168;
+  --line:#ddcab5;--green:#2e6f5d;--red:#9d3f31;--blue:#2f6488;--brown:#4d372e;
+  --gold:#b77516;--shadow:0 18px 42px rgba(51,38,24,.13);--radius:24px
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top left,#fff8ec 0,#f3eadf 36%,#eadcca 100%);color:var(--ink);font:17px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:#8b3026;font-weight:850;text-decoration:none}.wrap{width:min(1180px,100%);margin:0 auto;padding:0 18px}
+header{background:linear-gradient(135deg,#211814,#4a2a20 56%,#7b3b2b);color:white;padding:38px 0 28px}
+h1{font-size:clamp(35px,6vw,64px);line-height:1.02;margin:0 0 12px;letter-spacing:-.05em}
+h2{font-size:clamp(27px,4.8vw,42px);line-height:1.08;margin:0 0 14px;letter-spacing:-.035em}
+h3{font-size:22px;margin:18px 0 8px;line-height:1.18}p{margin:8px 0}.lead{font-size:clamp(18px,3vw,23px);max-width:930px;color:#f8e9d8;margin:0}
+.chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.chip{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.12);border-radius:999px;padding:8px 12px;font-size:14px}
+nav{position:sticky;top:0;z-index:10;background:rgba(243,234,223,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:10px 12px;overflow-x:auto;white-space:nowrap}
+nav .wrap{display:flex;gap:8px;padding:0}nav a{display:inline-block;background:#fffaf2;border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:#3e2a24;font-size:14px}
+main{padding:22px 0 70px}.section{margin-top:18px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.card{background:rgba(255,250,242,.96);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.span4{grid-column:span 4}.span5{grid-column:span 5}.span6{grid-column:span 6}.span7{grid-column:span 7}.span8{grid-column:span 8}.span12{grid-column:span 12}
+.muted,.small{color:var(--muted)}.small{font-size:13px}.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.kpi div{background:white;border:1px solid var(--line);border-radius:18px;padding:14px}.kpi b{display:block;font-size:25px}.check{padding-left:20px}.check li{margin:8px 0}
+.btns{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0 0}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--green);color:white!important;border-radius:15px;padding:11px 14px;font-weight:950;text-decoration:none!important;min-height:45px}.btn.blue{background:var(--blue)}.btn.red{background:var(--red)}.btn.brown{background:var(--brown)}.btn.light{background:#efe2d1;color:#3e2a24!important;border:1px solid #d7c4af}
+.photo{width:100%;height:260px;object-fit:cover;border-radius:20px;border:1px solid var(--line);display:block;background:#e7dccd}.photo.tall{height:380px}.caption{font-size:12px;color:var(--muted);margin-top:7px}
+.copy{background:#241f1b;color:white;border-radius:16px;padding:14px;white-space:pre-wrap;font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;overflow:auto}
+.route-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.route{background:white;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 10px 24px rgba(50,38,25,.08)}
+.map{height:250px;background:#e8ddcf}.map iframe{width:100%;height:100%;border:0;display:block}.route-body{padding:15px}.route-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.route-title{font-weight:950;font-size:20px}.pill{font-size:12px;font-weight:950;color:#4c372f;background:#f0e4d4;border:1px solid #dfccb8;border-radius:999px;padding:5px 8px;white-space:nowrap}
+.route-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.route-meta div{background:#fbf4e9;border:1px solid #ead8c4;border-radius:14px;padding:9px}.route-meta b{display:block;font-size:14px}
+.timeline{display:grid;gap:10px}.step{display:grid;grid-template-columns:88px 1fr;gap:13px;background:white;border:1px solid var(--line);border-radius:18px;padding:14px}.time{font-weight:950;font-size:20px;line-height:1.2}.title{font-weight:950;font-size:20px}
+.callout{border-left:5px solid var(--gold);background:#fff1d5;border-radius:15px;padding:14px;margin:14px 0}.callout.blue{border-left-color:var(--blue);background:#eaf2f8}.callout.red{border-left-color:var(--red);background:#f9e5df}
+.app{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;background:white;border:1px solid var(--line);border-radius:18px;padding:14px;margin:10px 0}
+table{width:100%;border-collapse:separate;border-spacing:0;background:white;border:1px solid var(--line);border-radius:18px;overflow:hidden;margin:12px 0}th,td{padding:13px;border-bottom:1px solid #eee2d4;text-align:left;vertical-align:top}th{background:#efe2d2;text-transform:uppercase;letter-spacing:.04em;font-size:12px}tr:last-child td{border-bottom:0}
+footer{background:#211d19;color:#eee;padding:26px 0}.foot{font-size:12px;color:#cfc4ba}
+@media(max-width:920px){.span4,.span5,.span6,.span7,.span8{grid-column:span 12}.route-grid,.kpi{grid-template-columns:1fr}.photo.tall{height:260px}}
+@media(max-width:680px){body{font-size:17px}.wrap{padding:0 14px}.grid{display:block}.card{margin:0 0 16px;padding:16px}.chips{display:grid}.btns{display:grid}.btn{width:100%;font-size:17px}.step{grid-template-columns:1fr}.route-meta{grid-template-columns:1fr}.map{height:235px}.photo{height:210px}.app{grid-template-columns:1fr}table,tbody,tr,td,th{display:block}tr:first-child{display:none}tr{border-bottom:1px solid #eee2d4}td{border:0;padding:10px 12px}td[data-label]::before{content:attr(data-label);display:block;text-transform:uppercase;font-size:11px;font-weight:900;color:#6b625a}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Vicenza / Ferrock / Venezia</h1>
+<p class="lead">Практический гид на 11–12 июля 2026: Kraków → Treviso Airport → Vicenza → Ferrock / Wicked Dub Division → Venezia → Treviso Airport → Kraków.</p>
+<div class="chips">
+<span class="chip">✈️ KRK 10:20 → TSF 12:00</span><span class="chip">🏨 CityHotel Cristina</span><span class="chip">🎵 Ferrock / Parco Retrone</span><span class="chip">🚆 Vicenza → Venezia 09:03</span><span class="chip">🚌 ATVO 12:30</span><span class="chip">✈️ TSF 16:00 → KRK 17:40</span><span class="chip">💶 50 € мелкими</span>
+</div>
+</div></header>
+<nav><div class="wrap">
+<a href="#start">Перед выездом</a><a href="#addresses">Адреса</a><a href="#plan">План</a><a href="#routes">Маршруты</a><a href="#sat">Суббота</a><a href="#vicenza">Vicenza</a><a href="#ferrock">Ferrock</a><a href="#sun">Воскресенье</a><a href="#venice">Венеция</a><a href="#atvo">ATVO</a><a href="#tickets">Билеты</a><a href="#cash">Наличные</a><a href="#food">Еда</a><a href="#phrases">Фразы</a>
+</div></nav>
+<main class="wrap">
+
+<section id="start" class="grid">
+<div class="card span8">
+<h2>Перед выездом</h2>
+<div class="kpi"><div><b>50 €</b><span class="small">наличными мелкими</span></div><div><b>08:20</b><span class="small">быть в KRK</span></div><div><b>12:30</b><span class="small">ATVO из Венеции</span></div><div><b>Uber</b><span class="small">ночной запас</span></div></div>
+<ul class="check">
+<li>Сохранить посадочные Ryanair офлайн.</li>
+<li>Купить / сохранить билеты Trenitalia: Treviso Centrale → Vicenza и Vicenza → Venezia Santa Lucia.</li>
+<li>Купить / сохранить ATVO Venezia Piazzale Roma → Treviso Airport.</li>
+<li>Сделать скрины: отель, Ferrock, Cantina Do Spade, ATVO, ключевые маршруты.</li>
+<li>Зарядить телефоны, powerbank и взять кабели.</li>
+<li>Проверить банковские карты и оплату телефоном.</li>
+<li>Взять 50 € мелкими купюрами и монетами.</li>
+</ul>
+</div>
+<div class="card span4" id="addresses">
+<h2>Важные адреса</h2>
+<h3>Отель</h3>
+<div class="copy">CityHotel Cristina Vicenza
 Corso Santi Felice e Fortunato 32
-
-Ferrock Festival
+36100 Vicenza VI
+Italy</div>
+<div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=CityHotel+Cristina+Vicenza">Открыть отель</a><a class="btn light" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Vicenza+Station&destination=CityHotel+Cristina+Vicenza&travelmode=walking">Вокзал → отель</a></div>
+<h3>Фестиваль</h3>
+<div class="copy">Ferrock Festival
 Parco Retrone / Via Malvezzi
+Quartiere Ferrovieri
+36100 Vicenza VI
+Italy</div>
+<div class="btns"><a class="btn red" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=CityHotel+Cristina+Vicenza&destination=Ferrock+Festival+Parco+Retrone+Vicenza&travelmode=walking">Отель → Ferrock</a><a class="btn light" target="_blank" href="https://m.uber.com/ul/">Открыть Uber</a></div>
+</div>
+</section>
 
-Radio Taxi Vicenza
-+39 0444 920600</div></div></section><section class="grid"><div class="hero">Vicenza · Piazza dei Signori</div><div class="hero">Venezia · Rialto</div></section><section class="card"><h2>Маршруты с Google Maps превью</h2><div class="routes"><div class="route"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=W%C5%82adys%C5%82awa%20%C5%81okietka%2057%2C%20Krak%C3%B3w&daddr=Krak%C3%B3w%20Airport&output=embed"></iframe><div class="rb"><h3>Дом → KRK</h3><p>Превью маршрута и кнопка открытия в Google Maps.</p><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=W%C5%82adys%C5%82awa+%C5%81okietka+57,+Krak%C3%B3w&destination=Krak%C3%B3w+Airport&travelmode=driving">Открыть маршрут</a></div></div><div class="route"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Treviso%20Airport&daddr=Treviso%20Centrale&output=embed"></iframe><div class="rb"><h3>TSF → Treviso Centrale</h3><p>Превью маршрута и кнопка открытия в Google Maps.</p><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Treviso+Airport&destination=Treviso+Centrale&travelmode=transit">Открыть маршрут</a></div></div><div class="route"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Vicenza%20Station&daddr=CityHotel%20Cristina%20Vicenza&dirflg=w&output=embed"></iframe><div class="rb"><h3>Vicenza Station → Hotel</h3><p>Превью маршрута и кнопка открытия в Google Maps.</p><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Vicenza+Station&destination=CityHotel+Cristina+Vicenza&travelmode=walking">Открыть маршрут</a></div></div><div class="route"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=CityHotel%20Cristina%20Vicenza&daddr=Ferrock%20Festival%20Parco%20Retrone%20Vicenza&dirflg=w&output=embed"></iframe><div class="rb"><h3>Hotel → Ferrock</h3><p>Превью маршрута и кнопка открытия в Google Maps.</p><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=CityHotel+Cristina+Vicenza&destination=Ferrock+Festival+Parco+Retrone+Vicenza&travelmode=walking">Открыть маршрут</a></div></div><div class="route"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Venezia%20Santa%20Lucia&daddr=Piazzale%20Roma%2C%20Venezia&dirflg=w&output=embed"></iframe><div class="rb"><h3>Venice walk</h3><p>Превью маршрута и кнопка открытия в Google Maps.</p><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Venezia+Santa+Lucia&destination=Piazzale+Roma,+Venezia&waypoints=Ponte+degli+Scalzi%7CCampo+San+Polo%7CPonte+di+Rialto%7CCantina+Do+Spade,+San+Polo+859,+Venezia&travelmode=walking">Открыть маршрут</a></div></div><div class="route"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Piazzale%20Roma%2C%20Venezia&daddr=Treviso%20Airport&output=embed"></iframe><div class="rb"><h3>Piazzale Roma → TSF</h3><p>Превью маршрута и кнопка открытия в Google Maps.</p><a class="btn" target="_blank" href="https://www.atvo.it/en/tickets-and-subscriptions">Открыть маршрут</a></div></div></div></section><section class="card"><h2>План</h2><p><b>Суббота:</b> 07:30 машина → KRK, 10:20 рейс, 12:40 Airlink, поезд до Vicenza, отель, Ferrock.</p><p><b>Воскресенье:</b> 08:35 вокзал, 09:03 поезд в Венецию, Rialto и обед, 12:30 ATVO, 16:00 вылет.</p><p><b>Венеция:</b> не уходить к San Marco. Маршрут: Santa Lucia → San Polo → Rialto → Cantina Do Spade → Piazzale Roma.</p></section><section class="grid"><div class="card"><h2>Наличные</h2><p>Оптимально 50 €. Номиналы: 2×10 €, 4×5 €, 5×2 € монетами.</p></div><div class="card"><h2>Фразы</h2><div class="copy">Not spicy, please.
-Без острого, пожалуйста.
+<section class="grid section">
+<div class="card span7"><img class="photo tall" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Basilica_Palladiana_a_Vicenza_Italy_and_Piazza_dei_Signori_and_Loggia_del_Capitaniato_Palace.jpg" alt="Vicenza"><div class="caption">Vicenza: Piazza dei Signori и Basilica Palladiana.</div></div>
+<div class="card span5"><img class="photo" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Venezia_-_Ponte_di_Rialto.jpg" alt="Rialto"><div class="caption">Venezia: Rialto — главный ориентир короткой прогулки.</div><h2>Логика поездки</h2><p>Не бегать за всем сразу. В субботу доехать, заселиться, спокойно попасть на Ferrock. В воскресенье коротко пройти Венецию, поесть и без нервов уехать в Treviso Airport.</p></div>
+</section>
 
-Two beers, please.
-Два пива, пожалуйста.
+<section id="plan" class="card section">
+<h2>План по времени</h2>
+<h3>Суббота, 11 июля</h3>
+<table><tr><th>Время</th><th>Что происходит</th><th>Что нажать</th></tr>
+<tr><td data-label="Время">07:00</td><td data-label="Что">Подъём: документы, билеты, деньги, телефоны.</td><td data-label="Кнопка">Чеклист выше</td></tr>
+<tr><td data-label="Время">07:30</td><td data-label="Что">Заказать Bolt / Uber / такси до Kraków Airport.</td><td data-label="Кнопка"><a target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=W%C5%82adys%C5%82awa+%C5%81okietka+57,+Krak%C3%B3w&destination=Krak%C3%B3w+Airport&travelmode=driving">Дом → KRK</a></td></tr>
+<tr><td data-label="Время">08:20</td><td data-label="Что">Быть в аэропорту.</td><td data-label="Кнопка">Security</td></tr>
+<tr><td data-label="Время">10:20</td><td data-label="Что">Рейс Kraków → Treviso.</td><td data-label="Кнопка">Ryanair</td></tr>
+<tr><td data-label="Время">12:40</td><td data-label="Что">Treviso Airlink → Treviso Centrale.</td><td data-label="Кнопка"><a href="#routes">Маршрут</a></td></tr>
+<tr><td data-label="Время">День</td><td data-label="Что">Поезд Treviso → Vicenza, затем вокзал → отель.</td><td data-label="Кнопка">Trenitalia</td></tr>
+<tr><td data-label="Время">Вечер</td><td data-label="Что">Отель → Ferrock.</td><td data-label="Кнопка"><a href="#ferrock">Ferrock</a></td></tr>
+</table>
+<h3>Воскресенье, 12 июля</h3>
+<table><tr><th>Время</th><th>Что происходит</th><th>Что нажать</th></tr>
+<tr><td data-label="Время">08:00</td><td data-label="Что">Завтрак.</td><td data-label="Кнопка">Без суеты</td></tr>
+<tr><td data-label="Время">08:35</td><td data-label="Что">Checkout, идти на вокзал.</td><td data-label="Кнопка">Отель → вокзал</td></tr>
+<tr><td data-label="Время">09:03</td><td data-label="Что">Поезд Vicenza → Venezia.</td><td data-label="Кнопка">Trenitalia</td></tr>
+<tr><td data-label="Время">09:50</td><td data-label="Что">Venezia Santa Lucia, короткий маршрут.</td><td data-label="Кнопка">Венеция</td></tr>
+<tr><td data-label="Время">12:20</td><td data-label="Что">Быть у ATVO на Piazzale Roma.</td><td data-label="Кнопка">Остановка</td></tr>
+<tr><td data-label="Время">12:30</td><td data-label="Что">ATVO → Treviso Airport.</td><td data-label="Кнопка">ATVO</td></tr>
+<tr><td data-label="Время">16:00</td><td data-label="Что">Рейс TSF → KRK.</td><td data-label="Кнопка">Ryanair</td></tr>
+</table>
+</section>
 
-Half a litre of house red wine, please.
-Пол-литра домашнего красного мина, пожалуйста.</div></div></section></main></body></html>
+<section id="routes" class="card section">
+<h2>Маршруты с Google Maps preview</h2>
+<div class="route-grid">
+<div class="route"><div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=W%C5%82adys%C5%82awa%20%C5%81okietka%2057%2C%20Krak%C3%B3w&daddr=Krak%C3%B3w%20Airport&output=embed"></iframe></div><div class="route-body"><div class="route-head"><div class="route-title">Дом → Kraków Airport</div><span class="pill">машина</span></div><div class="route-meta"><div><b>Выезд</b>07:30–07:40</div><div><b>Цель</b>08:20</div><div><b>Запас</b>2 часа</div></div><p class="muted">Заказать машину и ехать прямо к терминалу. Общественный транспорт только резерв.</p><div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=W%C5%82adys%C5%82awa+%C5%81okietka+57,+Krak%C3%B3w&destination=Krak%C3%B3w+Airport&travelmode=driving">Открыть маршрут</a></div></div></div>
+<div class="route"><div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Treviso%20Airport&daddr=Treviso%20Centrale&output=embed"></iframe></div><div class="route-body"><div class="route-head"><div class="route-title">Treviso Airport → Treviso Centrale</div><span class="pill">Airlink</span></div><div class="route-meta"><div><b>Цель</b>12:40</div><div><b>В пути</b>10 мин</div><div><b>Цена</b>5 €</div></div><p class="muted">После выхода искать Treviso Airlink / MOM на Via Noalese.</p><div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Treviso+Airport&destination=Treviso+Centrale&travelmode=transit">Открыть маршрут</a></div></div></div>
+<div class="route"><div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Vicenza%20Station&daddr=CityHotel%20Cristina%20Vicenza&dirflg=w&output=embed"></iframe></div><div class="route-body"><div class="route-head"><div class="route-title">Vicenza Station → отель</div><span class="pill">пешком</span></div><div class="route-meta"><div><b>После</b>поезда</div><div><b>В пути</b>8–10 мин</div><div><b>Финиш</b>отель</div></div><p class="muted">Короткий переход до CityHotel Cristina.</p><div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Vicenza+Station&destination=CityHotel+Cristina+Vicenza&travelmode=walking">Открыть маршрут</a></div></div></div>
+<div class="route"><div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=CityHotel%20Cristina%20Vicenza&daddr=Ferrock%20Festival%20Parco%20Retrone%20Vicenza&dirflg=w&output=embed"></iframe></div><div class="route-body"><div class="route-head"><div class="route-title">Отель → Ferrock</div><span class="pill">пешком</span></div><div class="route-meta"><div><b>Когда</b>вечером</div><div><b>Туда</b>пешком</div><div><b>Назад</b>по факту</div></div><p class="muted">Идти заранее, по дороге оценить освещение, людей и переходы.</p><div class="btns"><a class="btn red" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=CityHotel+Cristina+Vicenza&destination=Ferrock+Festival+Parco+Retrone+Vicenza&travelmode=walking">Отель → Ferrock</a><a class="btn light" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Ferrock+Festival+Parco+Retrone+Vicenza&destination=CityHotel+Cristina+Vicenza&travelmode=driving">Назад машиной</a></div></div></div>
+<div class="route"><div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Venezia%20Santa%20Lucia&daddr=Piazzale%20Roma%2C%20Venezia&dirflg=w&output=embed"></iframe></div><div class="route-body"><div class="route-head"><div class="route-title">Короткая Венеция</div><span class="pill">пешком</span></div><div class="route-meta"><div><b>Старт</b>09:50</div><div><b>Обед</b>10:45</div><div><b>ATVO</b>12:30</div></div><p class="muted">Santa Lucia → San Polo → Rialto → Cantina Do Spade → Piazzale Roma. Без San Marco.</p><div class="btns"><a class="btn blue" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Venezia+Santa+Lucia&destination=Piazzale+Roma,+Venezia&waypoints=Ponte+degli+Scalzi%7CCampo+San+Polo%7CPonte+di+Rialto%7CCantina+Do+Spade,+San+Polo+859,+Venezia&travelmode=walking">Весь маршрут</a></div></div></div>
+<div class="route"><div class="map"><iframe loading="lazy" src="https://maps.google.com/maps?f=d&saddr=Piazzale%20Roma%2C%20Venezia&daddr=Treviso%20Airport&output=embed"></iframe></div><div class="route-body"><div class="route-head"><div class="route-title">Piazzale Roma → Treviso Airport</div><span class="pill">ATVO</span></div><div class="route-meta"><div><b>Выезд</b>12:30</div><div><b>Прибытие</b>13:40</div><div><b>Вылет</b>16:00</div></div><p class="muted">Основной автобус под обратный рейс. 13:30 не брать как главный вариант.</p><div class="btns"><a class="btn red" target="_blank" href="https://www.atvo.it/en/tickets-and-subscriptions">Купить ATVO</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=ATVO+Piazzale+Roma+Venezia+Treviso+Airport">Остановка ATVO</a></div></div></div>
+</div>
+</section>
+
+<section id="sat" class="grid section">
+<div class="card span8"><h2>Суббота: Kraków → Treviso → Vicenza</h2><div class="timeline">
+<div class="step"><div class="time">07:00</div><div><div class="title">Подъём</div><p>Документы, посадочные, телефоны, карты, powerbank, 50 € наличными.</p></div></div>
+<div class="step"><div class="time">07:30</div><div><div class="title">Заказать машину</div><p>Bolt / Uber / такси. Цель — приехать в Kraków Airport около 08:20.</p></div></div>
+<div class="step"><div class="time">10:20</div><div><div class="title">Рейс KRK → TSF</div><p>Если онлайн-регистрация сделана и только ручная кладь, идти сразу на security.</p></div></div>
+<div class="step"><div class="time">12:00</div><div><div class="title">Treviso Airport</div><p>После выхода идти к Treviso Airlink / MOM на Via Noalese.</p></div></div>
+<div class="step"><div class="time">12:40</div><div><div class="title">Airlink до Treviso Centrale</div><p>Время в пути около 10 минут. Оплата картой, телефоном или часами в автобусе.</p></div></div>
+<div class="step"><div class="time">День</div><div><div class="title">Treviso Centrale → Vicenza</div><p>Открыть Trenitalia, выбрать прямой региональный поезд. Если есть пауза, поесть возле вокзала.</p></div></div>
+</div></div>
+<div class="card span4"><h2>Если задержка</h2><p>Не догонять ранний поезд любой ценой. Доехать до Treviso Centrale следующим Airlink, поесть рядом с вокзалом и выбрать следующий поезд в Trenitalia.</p><div class="btns"><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=restaurants+near+Treviso+Centrale">Еда у вокзала</a><a class="btn blue" target="_blank" href="https://www.trenitalia.com/en.html">Trenitalia</a></div></div>
+</section>
+
+<section id="vicenza" class="grid section">
+<div class="card span7"><h2>Vicenza: отель, центр, Lidl</h2><p>После поезда идти в отель. Если есть силы, можно сделать короткую прогулку через Piazza dei Signori и Basilica Palladiana.</p>
+<div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Vicenza+Station&destination=CityHotel+Cristina+Vicenza&travelmode=walking">Вокзал → отель</a><a class="btn light" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Vicenza+Station&destination=CityHotel+Cristina+Vicenza&waypoints=Piazza+dei+Signori,+Vicenza&travelmode=walking">Через Piazza dei Signori</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Lidl+Corso+Santi+Felice+e+Fortunato+249+Vicenza">Lidl</a></div>
+<h3>Lidl</h3><p><b>Corso Santi Felice e Fortunato 249</b>. Вода, снеки, салфетки, простые продукты.</p></div>
+<div class="card span5"><img class="photo" src="https://commons.wikimedia.org/wiki/Special:Redirect/file:Basilica_Palladiana_a_Vicenza_Italy_and_Piazza_dei_Signori_and_Loggia_del_Capitaniato_Palace.jpg" alt="Basilica Palladiana"><div class="caption">Piazza dei Signori — приятный короткий крюк в Vicenza.</div></div>
+</section>
+
+<section id="ferrock" class="grid section">
+<div class="card span8"><h2>Ferrock / Wicked Dub Division</h2>
+<h3>Туда</h3><p>Идти пешком заранее. Не выходить в последнюю минуту. По дороге оценить освещение, людей и переходы. При желании зайти в Lidl.</p>
+<div class="btns"><a class="btn red" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=CityHotel+Cristina+Vicenza&destination=Ferrock+Festival+Parco+Retrone+Vicenza&travelmode=walking">Отель → Ferrock</a><a class="btn light" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=CityHotel+Cristina+Vicenza&destination=Ferrock+Festival+Parco+Retrone+Vicenza&waypoints=Lidl+Corso+Santi+Felice+e+Fortunato+249+Vicenza&travelmode=walking">Через Lidl</a></div>
+<h3>Обратно</h3><p>Если идёт поток людей в сторону города и комфортно — идти пешком. Если пусто, устали, выпили или садится телефон — вызвать Uber.</p>
+<div class="btns"><a class="btn blue" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Ferrock+Festival+Parco+Retrone+Vicenza&destination=CityHotel+Cristina+Vicenza&travelmode=walking">Ferrock → отель пешком</a><a class="btn red" target="_blank" href="https://m.uber.com/ul/">Открыть Uber</a></div>
+<div class="callout"><b>Наличные:</b> 50 € нужны на фестиваль: донат / вход / бар / вода / мелочи.</div></div>
+<div class="card span4"><h2>Ночное правило</h2><p>Не геройствовать. Если дорога назад выглядит пустой или вы устали — Uber. Это не провал плана, а нормальный запасной сценарий.</p></div>
+</section>
+
+<section id="sun" class="grid section">
+<div class="card span12"><h2>Воскресенье: Vicenza → Venezia → Treviso Airport</h2><div class="timeline">
+<div class="step"><div class="time">08:00</div><div><div class="title">Завтрак</div><p>Плотно позавтракать в отеле.</p></div></div>
+<div class="step"><div class="time">08:35</div><div><div class="title">Checkout и вокзал</div><p>Собрать вещи и пешком идти до Vicenza Station.</p></div></div>
+<div class="step"><div class="time">09:03</div><div><div class="title">Vicenza → Venezia Santa Lucia</div><p>Цель: Regionale Veloce 3489, прибытие около 09:50. Проверить в Trenitalia / Viaggiatreno.</p></div></div>
+<div class="step"><div class="time">09:50</div><div><div class="title">Короткая Венеция</div><p>Santa Lucia → San Polo → Rialto → Cantina Do Spade → Piazzale Roma.</p></div></div>
+<div class="step"><div class="time">12:20</div><div><div class="title">Быть у ATVO</div><p>Автобус 12:30 → 13:40 до Treviso Airport. Вылет в 16:00.</p></div></div>
+</div><div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=CityHotel+Cristina+Vicenza&destination=Vicenza+Station&travelmode=walking">Отель → вокзал</a><a class="btn blue" target="_blank" href="https://www.trenitalia.com/en.html">Trenitalia</a><a class="btn light" target="_blank" href="https://www.viaggiatreno.it/vt_pax_internet/mobile/numero?numeroTreno=3489">Статус поезда 3489</a></div></div>
+</section>
+
+<section id="venice" class="grid section">
+<div class="card span8"><h2>Венеция за 2 часа</h2><div class="callout red"><b>Главное правило:</b> не идти к San Marco. На этот раз цель — Rialto, обед и спокойно успеть на автобус.</div>
+<table><tr><th>Время</th><th>Что делать</th></tr>
+<tr><td data-label="Время">09:50</td><td data-label="Что">Выйти из Venezia Santa Lucia, посмотреть Grand Canal.</td></tr>
+<tr><td data-label="Время">10:00</td><td data-label="Что">Идти через Ponte degli Scalzi.</td></tr>
+<tr><td data-label="Время">10:15</td><td data-label="Что">Campo San Polo.</td></tr>
+<tr><td data-label="Время">10:35</td><td data-label="Что">Rialto: фото и короткая остановка.</td></tr>
+<tr><td data-label="Время">10:45</td><td data-label="Что">Cantina Do Spade.</td></tr>
+<tr><td data-label="Время">11:45</td><td data-label="Что">Идти к Piazzale Roma / ATVO.</td></tr>
+<tr><td data-label="Время">12:20</td><td data-label="Что">Быть у ATVO.</td></tr>
+<tr><td data-label="Время">12:30</td><td data-label="Что">Автобус в Treviso Airport.</td></tr>
+</table>
+<div class="btns"><a class="btn blue" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Venezia+Santa+Lucia&destination=Piazzale+Roma,+Venezia&waypoints=Ponte+degli+Scalzi%7CCampo+San+Polo%7CPonte+di+Rialto%7CCantina+Do+Spade,+San+Polo+859,+Venezia&travelmode=walking">Открыть весь маршрут</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Cantina+Do+Spade+San+Polo+859+Venezia">Cantina Do Spade</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=bacari+near+Rialto+Venice">Если ресторан забит</a></div></div>
+<div class="card span4"><img class="photo" src="https://commons.wikimedia.org/wiki/Special:Redirect/file:Venezia_-_Ponte_di_Rialto.jpg" alt="Rialto"><div class="caption">Rialto — главная точка воскресной прогулки.</div><h3>Cantina Do Spade</h3><p>San Polo 859. Часы: 10:00–15:00 и 18:00–22:00.</p></div>
+</section>
+
+<section id="atvo" class="card section">
+<h2>ATVO: Venezia → Treviso Airport</h2>
+<table><tr><th>Пункт</th><th>Значение</th></tr>
+<tr><td data-label="Пункт">Откуда</td><td data-label="Значение">Venezia Piazzale Roma</td></tr>
+<tr><td data-label="Пункт">Куда</td><td data-label="Значение">Treviso Airport</td></tr>
+<tr><td data-label="Пункт">Автобус</td><td data-label="Значение">ATVO</td></tr>
+<tr><td data-label="Пункт">Время</td><td data-label="Значение">12:30</td></tr>
+<tr><td data-label="Пункт">Прибытие</td><td data-label="Значение">13:40</td></tr>
+<tr><td data-label="Пункт">Вылет</td><td data-label="Значение">16:00</td></tr>
+</table>
+<div class="callout"><b>Важно:</b> 13:30 не брать как основной вариант. 12:30 — спокойный автобус под обратный рейс.</div>
+<div class="btns"><a class="btn red" target="_blank" href="https://www.atvo.it/en/tickets-and-subscriptions">Купить ATVO</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=ATVO+Piazzale+Roma+Venezia+Treviso+Airport">Остановка ATVO</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Treviso+Airport">Treviso Airport</a></div>
+</section>
+
+<section id="tickets" class="card section">
+<h2>Билеты и приложения</h2>
+<table><tr><th>Что</th><th>Где</th><th>Что важно</th></tr>
+<tr><td data-label="Что">Ryanair</td><td data-label="Где">Ryanair app</td><td data-label="Важно">Посадочный офлайн.</td></tr>
+<tr><td data-label="Что">Treviso Airlink</td><td data-label="Где">Карта / телефон / MOMUP</td><td data-label="Важно">5 €, оплатить и провалидировать.</td></tr>
+<tr><td data-label="Что">Trenitalia</td><td data-label="Где">App / сайт</td><td data-label="Важно">Digital Regional Ticket.</td></tr>
+<tr><td data-label="Что">ATVO</td><td data-label="Где">Сайт / My ATVO</td><td data-label="Важно">Билет валидировать при посадке.</td></tr>
+<tr><td data-label="Что">Google Maps</td><td data-label="Где">App</td><td data-label="Важно">Главные маршруты.</td></tr>
+<tr><td data-label="Что">Uber</td><td data-label="Где">App</td><td data-label="Важно">Запас ночью после Ferrock.</td></tr>
+</table>
+</section>
+
+<section id="cash" class="card section">
+<h2>Наличные</h2><p>Большинство оплат картой или онлайн. Наличные нужны как аварийный карман для Ferrock и мелочей.</p>
+<table><tr><th>Вариант</th><th>Сумма</th><th>Когда</th></tr>
+<tr><td data-label="Вариант">Минимум</td><td data-label="Сумма"><b>30 €</b></td><td data-label="Когда">Если почти всё идёт по картам.</td></tr>
+<tr><td data-label="Вариант">Оптимально</td><td data-label="Сумма"><b>50 €</b></td><td data-label="Когда">Лучший вариант.</td></tr>
+<tr><td data-label="Вариант">С запасом</td><td data-label="Сумма"><b>70 €</b></td><td data-label="Когда">Если не хочется думать.</td></tr>
+</table>
+<div class="callout"><b>Номиналы:</b> 2×10 €, 4×5 €, 5×2 € монетами. Не брать одной купюрой 50 €.</div>
+</section>
+
+<section id="food" class="grid section">
+<div class="card span6"><h2>Еда и магазины</h2><h3>Treviso</h3><p>Еда рядом с Treviso Centrale перед поездом.</p><div class="btns"><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=restaurants+near+Treviso+Centrale">Еда у вокзала</a></div>
+<h3>Vicenza</h3><p><b>Pizzium Vicenza</b>: Corso Antonio Fogazzaro 90, пицца и пиво.</p><p><b>Lidl Vicenza</b>: Corso Santi Felice e Fortunato 249, вода и снеки.</p><div class="btns"><a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Pizzium+Vicenza+Corso+Antonio+Fogazzaro+90">Pizzium</a><a class="btn light" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Lidl+Corso+Santi+Felice+e+Fortunato+249+Vicenza">Lidl</a></div>
+<h3>Venezia</h3><p><b>Cantina Do Spade</b>: San Polo 859. Если забито — искать bacari near Rialto.</p></div>
+<div id="phrases" class="card span6"><h2>Фразы</h2><p><b>Без острого:</b></p><div class="copy">Not spicy, please.
+Без острого, пожалуйста.</div><p><b>Местная еда:</b></p><div class="copy">Could we have two simple local dishes, not spicy, please?
+Можно нам два простых местных блюда, не острых, пожалуйста?</div><p><b>Пиво:</b></p><div class="copy">Two beers, please.
+Два пива, пожалуйста.</div><p><b>Домашнее вино:</b></p><div class="copy">Half a litre of house red wine, please.
+Пол-литра домашнего красного вина, пожалуйста.</div></div>
+</section>
+
+<section class="card section">
+<h2>Источники</h2>
+<p class="small">Перед поездкой перепроверить Ryanair, Trenitalia, MOM и ATVO за 24–48 часов.</p>
+<ul>
+<li><a target="_blank" href="https://www.krakowairport.pl/en/passenger/travel/pre-flight-check/passenger-path">Kraków Airport Passenger Path</a></li>
+<li><a target="_blank" href="https://help.ryanair.com/hc/en-gb/articles/12890551921425-When-should-I-arrive-at-the-airport">Ryanair Help Centre</a></li>
+<li><a target="_blank" href="https://mobilitadimarca.it/en/p/routes-and-timetables/treviso-airbus">MOM Treviso Airlink</a></li>
+<li><a target="_blank" href="https://www.trenitalia.com/en/information/digital-regional-ticket.html">Trenitalia Digital Regional Ticket</a></li>
+<li><a target="_blank" href="https://www.atvo.it/en/tickets-and-subscriptions">ATVO Tickets</a></li>
+<li><a target="_blank" href="https://cantinadospade.com/en/find-us/">Cantina Do Spade</a></li>
+<li><a target="_blank" href="https://pizzium.com/eng/locali/vicenza/">Pizzium Vicenza</a></li>
+<li><a target="_blank" href="https://www.lidl.it/s/it-IT/ricerca-negozio/vicenza-vi/">Lidl Italia</a></li>
+</ul>
+</section>
+
+</main>
+<footer><div class="wrap"><p class="foot">Сохранить билеты офлайн, зарядить телефоны, наличные держать мелкими купюрами.</p></div></footer>
+</body>
+</html>
